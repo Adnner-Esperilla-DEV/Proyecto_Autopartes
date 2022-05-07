@@ -1,0 +1,69 @@
+body{
+background-color: #ebebeb;
+font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+
+}
+main{
+    text-align: center;
+}
+.row {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+section>.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 40px 0;
+}
+section .section-header {
+    margin-bottom: 22px;
+    -webkit-align-items: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    line-height: 1.2;
+}
+section .section-header h2 {
+    font-size: 26px;
+    font-weight: 300;
+    margin: 0 0 0 8px;
+    color: #666;
+    
+}
+.categories{
+    position: absolute;
+}
+
+.categories .category {   
+    height: 170px;
+    width: 170px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding:center;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:  #3483fa;
+    border-bottom: 1px solid #eae6e6;
+    border-right: 1px solid #eae6e6;
+}
+
+.categories .category  :hover{
+    background-color: #3483FA;
+    color: white;   
+}
+.categories .category :hover p {
+    color: white;   
+}
+.categories p {
+    color:  #333;
+    font-size: 17px;
+}
+.categories .category-column {
+    float: left;
+    height: 340px;
+    width: 100%;
+}
